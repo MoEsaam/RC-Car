@@ -1,4 +1,4 @@
-# Microprocessors Course Project - Robotika
+# RC Car
 
 ## Team Members
 | SN | Student Name              | 
