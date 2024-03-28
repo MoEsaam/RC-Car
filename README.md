@@ -10,6 +10,7 @@
 | 5  | Mahmoud Ashraf Gad        |               
 
 ## Table of Contents
+
 1. [Project Objective](#project-objective)
 2. [System Block Diagram](#system-block-diagram)
     - [Block Diagram](#block-diagram)
@@ -17,9 +18,7 @@
 3. [Schematic Diagram (Circuit Diagram)](#schematic-diagram-circuit-diagram)
 4. [List Of Components](#list-of-components)
 5. [Real-Time Hardware Photo](#real-time-hardware-photo)
-6. [Source Code](#source-code)
-    - [Hardware-side source code](#hardware-side-source-code)
-    - [PC-side source code](#pc-side-source-code)
+
 
 ---
 
@@ -33,7 +32,7 @@ To ensure safety and avoid collisions, the car can avoid obstacles using the ult
 ## System Block Diagram
 
 ### Block Diagram
-![Block Diagram]([photo_link_1](https://github.com/amrhossam9/RC-Car/blob/main/Pictures/Block%20Diagram.png))
+![Block Diagram](https://github.com/amrhossam9/RC-Car/blob/main/Pictures/Block%20Diagram.png)
 
 ### Block Diagram Description
 The project makes use of an ATmega32 microcontroller to control various components of the RC car. The microcontroller is connected to an H-bridge, which in turn is connected to the DC motors that provide the car's movement. Additionally, the microcontroller is connected to a Bluetooth module that receives commands through UART and is connected to the remote controller.
@@ -41,7 +40,7 @@ The project makes use of an ATmega32 microcontroller to control various componen
 A servo motor is also used in the project, which is attached to an ultrasonic sensor. The ultrasonic sensor is mounted on the servo motor, allowing it to look in different directions. Additionally, an infrared sensor is incorporated into the design.
 
 ## Schematic Diagram (Circuit Diagram)
-![Circuit Diagram 1]([photo_link_2](https://github.com/amrhossam9/RC-Car/blob/main/Pictures/Circuit%201.png))
+![Circuit Diagram 1](https://github.com/amrhossam9/RC-Car/blob/main/Pictures/Circuit%201.png)
 
 The calculation used to configure the sensor:
 Sound velocity = 340.00 m/s = 34000 cm/s
@@ -64,5 +63,5 @@ distance (cm) = 17000 x (TIMER value) x 5 x 10^-7 cm
 | 7   | Bluetooth module| HC-05              | HC-05 Bluetooth module | Controlling the car through Bluetooth             | 1        |
 
 ## Real-Time Hardware Photo
-![Real-Time Hardware Photo]([photo_link_4](https://github.com/amrhossam9/RC-Car/blob/main/Pictures/Real%20time%20hardware.png))
+![Real-Time Hardware Photo](https://github.com/amrhossam9/RC-Car/blob/main/Pictures/Real%20time%20hardware.png)
 
